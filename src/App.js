@@ -1,9 +1,11 @@
 import React, { Component } from 'react'
-import HelloWorld from './components/HelloWorld'
+import * as axios from 'axios'
+import List from './components/List'
+import Square from './components/Square'
 
 class App extends Component {
   render() {
-    return <HelloWorld />
+    return <List />
   }
 }
 
